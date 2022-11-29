@@ -5,7 +5,7 @@ const express = require('express');
 const cors = require('cors');
 const PORT = process.env.PORT || 3002;
 const logger = require('./middleware/logger');
-const notFound = require('.handlers/404');
+const notFound = require('./handlers/404');
 const errorHandler = require('./handlers/500');
 
 // create an instance of express => singleton
